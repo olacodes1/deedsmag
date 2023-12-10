@@ -34,7 +34,7 @@ header {
   }
 
   .logo {
-    width: 50%;
+    width: 40%;
   }
 
   .issue {
@@ -47,9 +47,14 @@ header {
   }
 }
 
+span {
+  font-size: 12px !important;
+}
+
 img.deeds {
   width: 600px;
   margin: 0 auto !important;
+  margin-bottom: 16px !important;
 }
 #mc_embed_signup {
   display: flex;
