@@ -63,6 +63,22 @@ img.deeds {
   }
 }
 
+@media screen and (max-width: 1110px) {
+  header {
+    width: 100% !important;
+    margin-top: 16px !important;
+    margin-bottom: 0px !important;
+  }
+
+  nav {
+    width: 90% !important;
+    margin: 0 !important;
+  }
+
+  form {
+    width: 90% !important;
+  }
+}
 @media screen and (max-width: 768px) {
   header {
     width: 100% !important;
