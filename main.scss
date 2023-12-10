@@ -63,9 +63,24 @@ img.deeds {
   }
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin: 34px auto;
+  justify-content: space-between;
+  // flex-direction: column;
+
+  a {
+    text-decoration: underline;
+    color: #000000;
+  }
+}
+
 @media screen and (max-width: 1110px) {
-  header {
-    width: 100% !important;
+  header,
+  footer {
+    width: 90% !important;
     margin-top: 16px !important;
     margin-bottom: 0px !important;
   }
@@ -83,6 +98,13 @@ img.deeds {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  footer {
+    margin-bottom: 24px !important;
+
+    .links a {
+      margin-left: 8px;
+    }
   }
 }
 @media screen and (max-width: 768px) {
